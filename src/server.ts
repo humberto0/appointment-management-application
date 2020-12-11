@@ -1,8 +1,8 @@
 // src/server.ts
 import 'reflect-metadata';
 import routes from './routes';
-import express, {Request, Response, NextFunction}from 'express';
 import 'express-async-errors';
+import express, { Request, Response, NextFunction } from 'express';
 import './database';
 import uploadConfig from './config/upload';
 import AppError from "./errors/AppError";
